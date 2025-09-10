@@ -1,3 +1,4 @@
+#test run
 name: Run Dash Tests
 
 on:
@@ -30,7 +31,5 @@ jobs:
 
       # 4. Run test suite
       - name: Run test suite
-        run: |
-          chmod +x run_tests.sh
-          ./run_tests.sh
+        run: pytest test_app.py
 

@@ -9,7 +9,7 @@ files = [
 ]
 
 input_folder = "data"
-output_file = "pink_morsel_sales.csv"
+output_file = "formatted_data.csv"
 
 results = []
 

@@ -1,0 +1,4 @@
+dash[testing]
+pytest
+pandas
+plotly

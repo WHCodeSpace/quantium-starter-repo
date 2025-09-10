@@ -30,4 +30,7 @@ jobs:
 
       # 4. Run test suite
       - name: Run test suite
-        run: ./run_tests.sh
+        run: |
+          chmod +x run_tests.sh
+          ./run_tests.sh
+
